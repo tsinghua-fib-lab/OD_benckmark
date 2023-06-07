@@ -7,3 +7,6 @@
 [submodule "ODConstruction"]
 	path = ODConstruction
 	url = git@github.com:loooffeeeey/ODConstruction.git
+[submodule "ODEstimation"]
+	path = ODEstimation
+	url = git@github.com:loooffeeeey/ODEstimation.git
