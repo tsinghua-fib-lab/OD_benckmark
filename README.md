@@ -6,19 +6,19 @@ A library of benckmark code corresponding to the paper ***A Interdisciplinary Su
 
 **Problem Definition.** *Given the regional urban characteristics of the city $\{ \mathbf{X}_r | r \in \mathcal{R} \}$ and observed OD flows $\{ f_{ij} | <r_i, r_j> \in \mathcal{X} \}$ between part of OD pairs $\mathcal{X}$ , construct a model to predict the remaining unknown OD flows $\{ f_{ij} | <r_i, r_j> \notin \mathcal{X} \}$.*
 
-
+![Illustration of OD prediction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_pre.png)
 
 ## OD Construction
 
 **Definition of OD Matrix.** *The OD flows are organized in the form of an OD matrix $\mathbf{F}$ shown below,*
 $$
-    \mathbf{F} = 
-    \begin{bmatrix} 
-        f_{11} & f_{12} & ...    & f_{1N} \\ 
-        f_{21} & f_{22} & ...    & f_{2N} \\
-        \vdots & \vdots & \ddots & \vdots \\
-        f_{N1} & f_{N2} & ...    & f_{NN}
-    \end{bmatrix},
+\mathbf{F} = 
+\begin{bmatrix} 
+    f_{11} & f_{12} & ...    & f_{1N} \\ 
+    f_{21} & f_{22} & ...    & f_{2N} \\
+    \vdots & \vdots & \ddots & \vdots \\
+    f_{N1} & f_{N2} & ...    & f_{NN}
+\end{bmatrix},
 $$
 *in which each element represents the flow $f_{ij}$ between a specific pair of regions. An OD matrix generally represents the mobility flow between all regions within an entire city.*
 
