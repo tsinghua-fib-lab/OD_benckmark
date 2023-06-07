@@ -12,7 +12,7 @@ A library of benckmark code corresponding to the paper ***A Interdisciplinary Su
 
 ## OD Construction
 
-**Definition of OD Matrix.** *The OD flows are organized in the form of an OD matrix $\mathbf{F}$ shown below,*
+**Definition of OD Matrix.** *The OD flows are organized in the form of an OD matrix $\bf{F}$ shown below,*
 
 $$
 \mathbf{F} = 
