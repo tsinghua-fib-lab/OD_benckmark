@@ -34,7 +34,7 @@ in which each element represents the flow $f_{ij}$ between a specific pair of re
 
 ## OD Estimation
 
-**Problem Definition.** Given a set of observed temporal traffic counts or other relevant observations $\mathcal{T} = \lbrace x_i^t | t=1,..,T \text{ and } i = 1,...,N \rbrace$ collected at various locations $\lbrace l_i | i=1,...,N \rbrace$ within a transportation network (such as road segments, intersections, or sensor-equipped locations), the objective is to infer the underlying OD flows $\lbracef^t_{ij}\rbrace$, i.e., the number of trips between different origin and destination pairs, that generated the observed traffic pattern.
+**Problem Definition.** Given a set of observed temporal traffic counts or other relevant observations $\mathcal{T} = \lbrace x_i^t | t=1,..,T \text{ and } i = 1,...,N \rbrace$ collected at various locations $\lbrace l_i | i=1,...,N \rbrace$ within a transportation network (such as road segments, intersections, or sensor-equipped locations), the objective is to infer the underlying OD flows $\lbrace f^t_{ij}\rbrace$, i.e., the number of trips between different origin and destination pairs, that generated the observed traffic pattern.
 
 ![Illustration of OD construction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_est.png)
 
