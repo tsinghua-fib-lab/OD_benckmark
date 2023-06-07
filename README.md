@@ -24,12 +24,17 @@ $$
 
 **Problem Definition.** *The OD construction problem aims to construct the complete OD matrix $\mathbf{F}$ for the city based on easily accessible information without any OD flow information available.*
 
+![Illustration of OD construction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_con.png)
+
 ## OD Estimation
 
 **Problem Definition.** *Given a set of observed temporal traffic counts or other relevant observations $\mathcal{T} = \{ x_i^t | t=1,..,T \text{ and } i = 1,...,N \}$ collected at various locations $\{ l_i | i=1,...,N \}$ within a transportation network (such as road segments, intersections, or sensor-equipped locations), the objective is to infer the underlying OD flows $\{f^t_{ij}\}$, i.e., the number of trips between different origin and destination pairs, that generated the observed traffic pattern.*
+
+![Illustration of OD construction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_est.png)
 
 ## OD Forecasting
 
 **Problem Definition.** *Given a historical dataset of OD flows $\{ f^t_{ij} | t= 1,2,...,k-1 \}$ over a certain period of time, the objective is to forecast the OD flows for future time periods $\{ 
 f^t_{ij} | t=k,k+1,... \}$.*
 
+![Illustration of OD construction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_for.png)
