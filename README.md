@@ -42,8 +42,7 @@ in which each element represents the flow $f_{ij}$ between a specific pair of re
 
 ## OD Forecasting
 
-**Problem Definition.** Given a historical dataset of OD flows $\lbrace f^t_{ij} | t= 1,2,...,k-1 \rbrace$ over a certain period of time, the objective is to forecast the OD flows for future time periods $\lbrace 
-f^t_{ij} | t=k,k+1,... \rbrace$.
+**Problem Definition.** Given a historical dataset of OD flows $\lbrace f^t_{ij} | t= 1,2,...,k-1 \rbrace$ over a certain period of time, the objective is to forecast the OD flows for future time periods $\lbrace f^t_{ij} | t=k,k+1,... \rbrace$.
 
 ![Illustration of OD construction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_for.png)
 
