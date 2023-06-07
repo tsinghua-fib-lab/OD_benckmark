@@ -38,7 +38,7 @@ in which each element represents the flow $f_{ij}$ between a specific pair of re
 
 ![Illustration of OD estimation](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_est.png)
 
-[code]([url](https://github.com/loooffeeeey/ODEstimation))
+[code](https://github.com/loooffeeeey/ODEstimation)
 
 ## OD Forecasting
 
@@ -46,4 +46,4 @@ in which each element represents the flow $f_{ij}$ between a specific pair of re
 
 ![Illustration of OD forecasting](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_for.png)
 
-[code]([url](https://github.com/loooffeeeey/OD_forecasting_benchmark))
+[code](https://github.com/loooffeeeey/OD_forecasting_benchmark)
