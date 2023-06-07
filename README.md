@@ -7,7 +7,9 @@ A library of benckmark code corresponding to the paper ***A Interdisciplinary Su
 $$x = a_{1}^n + a_{2}^n + {a}_{3}^n$$
 
 **Problem Definition.** Given the regional urban characteristics of the city 
+
 $${\lbrace} {\bf{X}}_r | r\in\mathcal{R} \rbrace$$ 
+
 and observed OD flows $\lbrace f_{ij}|\langle r_i, r_j\rangle\in\mathcal{X} \rbrace$ between part of OD pairs $\mathcal{X}$ , construct a model to predict the remaining unknown OD flows $\lbrace f_{ij}|\langle r_i,r_j\rangle\notin\mathcal{X}\rbrace$.
 
 ![Illustration of OD prediction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_pre.png)
