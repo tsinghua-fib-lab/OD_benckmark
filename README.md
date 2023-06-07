@@ -4,7 +4,7 @@ A library of benckmark code corresponding to the paper ***A Interdisciplinary Su
 
 ## OD Prediction
 
-**Problem Definition.** Given the regional urban characteristics of the city ${\lbrace} X_r | r\in\mathcal{R} \rbrace$ and observed OD flows $\lbrace f_{ij}|\langle r_i, r_j\rangle\in\mathcal{X} \rbrace$ between part of OD pairs $\mathcal{X}$ , construct a model to predict the remaining unknown OD flows $\lbrace f_{ij}|\langle r_i,r_j\rangle\notin\mathcal{X}\rbrace$.
+**Problem Definition.** *Given the regional urban characteristics of the city ${\lbrace} X_r | r\in\mathcal{R} \rbrace$ and observed OD flows $\lbrace f_{ij}|\langle r_i, r_j\rangle\in\mathcal{X} \rbrace$ between part of OD pairs $\mathcal{X}$ , construct a model to predict the remaining unknown OD flows $\lbrace f_{ij}|\langle r_i,r_j\rangle\notin\mathcal{X}\rbrace$.*
 
 ![Illustration of OD prediction](https://github.com/loooffeeeey/ODBenchmark/blob/main/assets/problem_pre.png)
 
@@ -13,6 +13,7 @@ A library of benckmark code corresponding to the paper ***A Interdisciplinary Su
 ## OD Construction
 
 **Definition of OD Matrix.** *The OD flows are organized in the form of an OD matrix $\mathbf{F}$ shown below,*
+
 $$
 \mathbf{F} = 
 \begin{bmatrix} 
@@ -22,6 +23,7 @@ $$
     f_{N1} & f_{N2} & ...    & f_{NN}
 \end{bmatrix},
 $$
+
 *in which each element represents the flow $f_{ij}$ between a specific pair of regions. An OD matrix generally represents the mobility flow between all regions within an entire city.*
 
 **Problem Definition.** *The OD construction problem aims to construct the complete OD matrix $\mathbf{F}$ for the city based on easily accessible information without any OD flow information available.*
