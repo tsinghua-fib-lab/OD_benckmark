@@ -1,0 +1,3 @@
+[submodule "ODForecasting"]
+	path = ODForecasting
+	url = git@github.com:loooffeeeey/OD_forecasting_benchmark.git
