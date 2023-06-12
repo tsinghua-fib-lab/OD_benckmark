@@ -1,12 +1,12 @@
 [submodule "ODForecasting"]
 	path = ODForecasting
-	url = git@github.com:loooffeeeey/OD_forecasting_benchmark.git
+	url = git@github.com:tsinghua-fib-lab/ODForecasting.git
 [submodule "ODPrediction"]
 	path = ODPrediction
-	url = git@github.com:loooffeeeey/ODPrediction.git
+	url = git@github.com:tsinghua-fib-lab/ODPrediction.git
 [submodule "ODConstruction"]
 	path = ODConstruction
-	url = git@github.com:loooffeeeey/ODConstruction.git
+	url = git@github.com:tsinghua-fib-lab/ODConstruction.git
 [submodule "ODEstimation"]
 	path = ODEstimation
-	url = git@github.com:loooffeeeey/ODEstimation.git
+	url = git@github.com:tsinghua-fib-lab/ODEstimation.git
